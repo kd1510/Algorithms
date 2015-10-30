@@ -1,0 +1,26 @@
+
+
+			root:						[4, 6, 1, 2, 9, 3, 5, 8]		(unpartitioned).
+
+
+			first partition:
+												
+											   pivot = 4
+
+										[3, 1, 2, |4,| 9, 6, 5, 8]
+
+									 	 low = 0      high = 7
+
+			recursion depth 0: 
+
+							 pivot = 3					         pivot = 9		
+
+							[3, 1, 2]							[9, 6, 5, 8]
+
+						low = 0  high = 3				low = 4 			high = 8
+
+
+			recursion depth 1:
+
+						
+					
