@@ -55,7 +55,3 @@ def quicksort(array, low=None, high=None):
 		current_pivot = partition_array(array, low, high)
 		quicksort(array, low, current_pivot)
 		quicksort(array, current_pivot+1, high)
-
-array = [5,4,1,7,9,2,6]
-quicksort(array)
-print array
