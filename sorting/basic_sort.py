@@ -15,18 +15,21 @@ def insertion_sort(array):
 			if array[i] < array[x]:
 				array.insert(x, array[i])
 				del array[i+1]
-	return array
 
 def selection_sort(array):
 	'''
-	Selection sort implementation: FINISH!
+	Selection sort iterates over an array, finding the minimum, then inserting this into another
 	'''
-	# array_4 = [5,2,4,6,1,3]
-	# for i in range(0,len(array_4)):
-	# 	index_current_min = None
-	# 	for j in range(0,len(array_4)):
 
+	sorted_array = []
 
+	for i in range(0,len(array)):
 
+	return sorted_array
 
+array = [5,9,1,3,5,4,8,7]
 
+# insertion_sort(array)
+selection_sort(array)
+
+print array
